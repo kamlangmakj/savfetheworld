@@ -4,4 +4,6 @@
 @section('contactBold', 'ติดต่อเรา')
 @section('content')
 
+    @include('layouts.footer')
+    @include('layouts.backtotop')
 @endsection
