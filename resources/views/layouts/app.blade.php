@@ -47,16 +47,23 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">@yield('contact') <label style="font-weight: bold">@yield('contactBold')</label></a>
+                            <a type="button" onclick="scrollWin()" class="nav-link">@yield('contact') <label style="font-weight: bold">@yield('contactBold')</label></a>
                         </li>
                     </ul>
                 </div>
+
+
             </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
+    <script>
+        function scrollWin() {
+            window.scrollTo(0, 1000);
+        }
+    </script>
 </body>
 </html>

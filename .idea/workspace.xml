@@ -116,13 +116,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Controllers" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
+      <recent name="$PROJECT_DIR$/resources/views/users" />
       <recent name="$PROJECT_DIR$/resources/views/layouts" />
       <recent name="D:\xampp\htdocs\savfetheworld\resources\views\admin" />
     </key>
@@ -162,7 +164,8 @@
       <workItem from="1577004753899" duration="143000" />
       <workItem from="1577006153329" duration="2346000" />
       <workItem from="1577026915445" duration="1356000" />
-      <workItem from="1579311824824" duration="5651000" />
+      <workItem from="1579311824824" duration="13540000" />
+      <workItem from="1579398809741" duration="805000" />
     </task>
     <servers />
   </component>
@@ -173,6 +176,18 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Notifications" timestamp="1579353089590">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1579353089590" />
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1579414938707">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1579414938707" />
+    <state x="368" y="104" key="#phpunit.xml" timestamp="1579369257307">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="368" y="104" key="#phpunit.xml/0.0.1440.900@0.0.1440.900" timestamp="1579369257307" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1579336963492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
