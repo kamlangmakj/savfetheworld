@@ -33,10 +33,10 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" style="z-index: 999;position: fixed;left: 0;top: 0;width: 100%;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{ url('img/logo-02.png') }}" alt="Savfetheworld Logo" class="brand-image "
+                    <img src="{{ url('img/logo app-10.png') }}" alt="Savfetheworld Logo" class="brand-image "
                          style="opacity: .8; height: 40px">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -49,6 +49,18 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">@yield('contact') <label style="font-weight: bold">@yield('contactBold')</label></a>
                         </li>
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link" href="#">หน้าแรก</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link" href="#">ดาวน์โหลด</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link" href="#">ติดต่อเรา</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="nav-item">--}}
+{{--                            <a class="nav-link" href="#">ถาม/ตอบ</a>--}}
+{{--                        </li>--}}
                     </ul>
                 </div>
             </div>

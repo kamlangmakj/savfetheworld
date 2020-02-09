@@ -29,7 +29,9 @@
     <!-- Google Font: Prompt -->
     <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
     <!-- Style.css -->
+{{--    <link rel="stylesheet" href="{{ url('css/editor.css') }}">--}}
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
+
 
 
 </head>
@@ -92,7 +94,7 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="#" class="brand-link" style="background-color: #D7D7D7">
-            <img src="{{ url('img/logo-02.png') }}" alt="Savfetheworld Logo" class="brand-image "
+            <img src="{{ url('img/logo app-10.png') }}" alt="Savfetheworld Logo" class="brand-image "
                  style="opacity: .8">
             <span class="brand-text font-weight-light" style="color: #000">ADMIN</span>
         </a>
@@ -123,7 +125,7 @@
         <strong>Copyright &copy; 2020 SAV'FE THE WORLD</strong>
         - All rights reserved.
         <div class="float-right d-none d-sm-inline-block">
-            <b>Version</b> 1.0.1
+            <b>Version</b> 1.0.2
         </div>
     </footer>
 
@@ -169,5 +171,12 @@
 <script src="{{ url('js/pages/dashboard.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ url('js/demo.js') }}"></script>
+
+{{--<script src="{{ url('js/editor.js') }}"></script>--}}
+{{--<script>--}}
+{{--    $(document).ready(function() {--}}
+{{--        $("#txtEditor").Editor();--}}
+{{--    });--}}
+{{--</script>--}}
 </body>
 </html>

@@ -14,7 +14,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ url('admin/users') }}" class="nav-link @if(Request::is('admin/users')) active @endif">
+                <a href="{{ url('admin/users') }}" class="nav-link @if(Request::is('admin/users*')) active @endif">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
                         Users
@@ -30,7 +30,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ url('admin/rewards') }}" class="nav-link @if(Request::is('admin/rewards')) active @endif">
+                <a href="{{ url('admin/rewards') }}" class="nav-link @if(Request::is('admin/rewards*')) active @endif">
                     <i class="nav-icon far fa-star"></i>
                     <p>
                         Rewards
